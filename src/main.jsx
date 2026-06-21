@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 
-const portrait = '/krishna-crop.jpeg';
+const portrait = '/krishna-red-crop.jpeg';
 
 function FloatingPetals() {
   const petals = useMemo(
@@ -109,12 +109,12 @@ function EnvelopeIntro({ isOpen, onOpen }) {
 
 function Invitation() {
   return (
-    <main className="invitation" aria-label="Krishna Saini birthday invitation">
+    <main className="invitation" aria-label="Krishna birthday invitation">
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Birthday Invitation</p>
-          <h1>Mrs. Krishna Saini</h1>
-          <p className="invite-line">A golden evening of love, laughter, blessings, and celebration</p>
+          <h1>Krishna</h1>
+          <p className="invite-line">A rosy evening of love, laughter, blessings, and celebration</p>
           <div className="date-card" aria-label="Birthday date">
             <small>Friday</small>
             <span>26 June</span>
@@ -125,19 +125,19 @@ function Invitation() {
         <div className="photo-column">
           <div className="portrait-wrap">
             <div className="portrait-halo" aria-hidden="true" />
-            <img src={portrait} alt="Krishna Saini smiling in a yellow dress" />
+            <img src={portrait} alt="Krishna smiling in a red saree with roses" />
             <span className="portrait-flower flower-a" aria-hidden="true" />
             <span className="portrait-flower flower-b" aria-hidden="true" />
           </div>
-          <p className="birthday-wish">Happy Birthday to Mrs. Krishna Saini</p>
+          <p className="birthday-wish">Happy Birthday to Krishna</p>
         </div>
       </section>
 
       <section className="message-band">
         <p>
-          With hearts full of joy 💛, we request your gracious presence to celebrate the birthday of
-          Mrs. Krishna Saini 🌼. Please join us with family and friends for an evening of smiles 😊,
-          music 🎶, blessings 🙏, delicious food 🍰, and memories we will cherish together ✨.
+          With hearts full of joy ❤️, we request your gracious presence to celebrate the birthday of
+          Krishna 🌹. Please join us with family and friends for an evening of smiles 😊, music 🎶,
+          blessings 🙏, delicious food 🍰, and memories we will cherish together ✨.
         </p>
       </section>
 
