@@ -114,7 +114,7 @@ button {
     radial-gradient(circle at 16% 18%, rgba(255, 214, 69, 0.42), transparent 18rem),
     radial-gradient(circle at 78% 76%, rgba(219, 95, 84, 0.16), transparent 20rem),
     linear-gradient(135deg, #ffe176 0%, #fff6d0 48%, #f5ffe9 100%);
-  transition: opacity 0.95s ease 4.55s, visibility 0.95s ease 4.55s;
+  transition: opacity 0.95s ease 3s, visibility 0.95s ease 3s;
 }
 
 .intro-open {
@@ -341,7 +341,7 @@ button {
 
 .intro-open .envelope-button {
   animation: envelope-exit 1.75s cubic-bezier(.2, .8, .16, 1) forwards;
-  animation-delay: 4.25s;
+  animation-delay: 2.7s;
 }
 
 @keyframes envelope-exit {
@@ -651,9 +651,9 @@ button {
   transform-origin: 50% 18%;
   filter: blur(8px);
   transition:
-    opacity 1.2s ease 4.45s,
-    transform 1.35s cubic-bezier(.16, .86, .22, 1) 4.45s,
-    filter 1.2s ease 4.45s;
+    opacity 1.2s ease 2.9s,
+    transform 1.35s cubic-bezier(.16, .86, .22, 1) 2.9s,
+    filter 1.2s ease 2.9s;
 }
 
 .invitation-shell.visible {
